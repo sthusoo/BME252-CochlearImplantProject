@@ -104,7 +104,7 @@ for i = 1:numChan %loop through channels
     %envelope of IIR filter
     env1 = filter(Hd1, abs_filtered_signal_cheb); 
 
-%Task 6
+    %Task 6
     if i == 1
         %Lowest Frequency Channel Plots for Filtered IIR signal
         figure('Name','Lowest Frequncy Band - Chebyshev');
